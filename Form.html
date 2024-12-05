@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>HTML</title>
+  <style> 
+    body{
+      background-color:deeppink;
+    }
+    h3{
+      border-bottom:2px solid red;
+    }
+  input[type=text]{
+      width: 300px;
+      padding: 12px 20px;
+      margin:  8px 0;
+      box-sizing: border-box;
+      background-color:pink;
+      color:black;
+      border-radius:50px;
+  }
+ input[type=number],
+ input[type=email],
+ input[type=date]{
+      width: 300px;
+      padding: 12px 20px;
+      margin:  8px 0;
+      box-sizing: border-box;
+      background-color:white;
+ }
+ input[type=submit]{
+      margin:3px;
+      width:300px;
+      padding:12px 20px;
+      background-color:green;
+      border-radius:50px 20px;
+    }
+ .center{
+      margin: auto;
+      width:80%;
+      border:3px solid blue;
+      padding:10px;
+      height:1150px;
+     background-color:lightblue;
+  }
+   h1{
+     border-bottom:5px solid silver;
+   }
+  </style>
+</head>
+<body>
+ <h1 style="text-align:center;">HTML</h1>
+  <h2 style="background-color:green;">Application form</h2>
+   <div class="center">
+     <div>
+       <label>First Name:</label>
+       <input type="text" class="name" id="fname" placeholder="First Name">
+     </div>
+     <div>
+       <label>Last Name:</label>
+       <input type="text" class="name" id="lname" placeholder="Last Name">
+     </div>
+     <div>
+       <label>Email:</label>
+       <input type="email" id="email" placeholder="Enter Your Email">
+     </div>
+     <div>
+       <label>Date Of Birth:</label>
+       <input type="date" id="date">
+     </div>
+     <div>
+       <label>College Name:</label>
+       <input type="text" placeholder="College Name">
+     </div>
+     <div>
+       <label>Course Name:</label>
+       <input type="text" placeholder="Course Name">
+     </div>
+     <div>
+       <label for="number">Mobile No:</label>
+       <input type="number" id="number" placeholder="Enter Mobile Number">
+     </div>
+     <div>
+       <label>pin code:</label>
+       <input type="text" placeholder="pin code">
+     </div>
+     <div>
+       <label>Street<sup>*</sup></label>
+       <input type="text" id="street" placeholder="street">
+     </div>
+      <h3>Gender<sup>*</sup></h3>
+         <input type="radio">Male<br>
+         <input type="radio">Female
+      <h3>course year<sup>*</sup></h3><br>
+         <input type="radio">1 year<br>
+         <input type="radio">2 year<br>
+         <input type="radio">3 year<br>
+         <input type="radio">4 year<br>
+      <h3>passed out year<sup>*</sup></h3>
+           <input type="checkbox">2023<br>
+           <input type="checkbox">2024<br>
+           <input type="submit" value="submit">
+    </div>
+  </body>
+</html>
